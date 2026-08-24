@@ -1,54 +1,56 @@
-# Portfólio Pessoal
+# hytn1.github.io
 
-Portfólio desenvolvido para apresentar meus conhecimentos, projetos, habilidades e formação na área de tecnologia.
+Site pessoal onde reúno projetos, habilidades e formação enquanto estudo Ciência da Computação. Serve como cartão de visitas pra quem quiser entender rápido o que eu já fiz e no que estou trabalhando agora.
 
-O site reúne informações sobre minha trajetória como estudante de Ciência da Computação, além dos projetos que venho desenvolvendo durante minha formação técnica e acadêmica.
+**Live:** [hytn1.github.io](https://hytn1.github.io)
 
-🔗 **Acesse:** [hytn1.github.io](https://hytn1.github.io)
+## Stack
 
-## 👨‍💻 Sobre o projeto
+Página estática, sem framework nem build step:
 
-Este portfólio foi criado com o objetivo de reunir meus principais projetos e facilitar a apresentação do meu trabalho para oportunidades de estágio na área de tecnologia.
+| | |
+|---|---|
+| Estrutura | HTML5 semântico |
+| Estilo | CSS puro (variáveis, grid, flexbox) |
+| Interação | JavaScript vanilla (scroll spy, menu mobile, reveal on scroll) |
+| Fontes | Space Grotesk + JetBrains Mono (Google Fonts) |
 
-O desenvolvimento contou com o auxílio de uma ferramenta de Inteligência Artificial (Claude) na criação e estruturação do código, adaptado e personalizado de acordo com minhas informações, projetos e preferências visuais.
+## Estrutura de pastas
 
-## 🛠️ Tecnologias utilizadas
+```
+Portfolio/
+├── index.html
+├── css/style.css
+├── js/script.js
+└── img/foto.jpg
+```
 
-- HTML5
-- CSS3
-- JavaScript
-- Design responsivo
+## Seções do site
 
-## ✨ Funcionalidades
+- **Início** — apresentação rápida e links de contato
+- **Sobre** — quem eu sou e minha trajetória (Etec + UNISAGRADO)
+- **Habilidades** — linguagens, dados e ferramentas que uso
+- **Formação** — graduação, curso técnico e certificações
+- **Projetos** — repositórios em destaque, com link direto pro código
+- **Contato** — GitHub, LinkedIn e e-mail
 
-- Menu de navegação entre as seções
-- Apresentação pessoal
-- Seção de habilidades
-- Formação acadêmica e certificações
-- Exibição dos principais projetos
-- Links para GitHub, LinkedIn e e-mail
-- Layout responsivo para diferentes tamanhos de tela
-- Animações ao rolar a página
+## Rodando localmente
 
-## 📂 Projetos apresentados
+Não precisa de instalação — é só HTML/CSS/JS puro:
 
-O portfólio atualmente apresenta projetos como:
+```bash
+git clone https://github.com/hytn1/hytn1.github.io.git
+cd hytn1.github.io
+```
 
-- 🌦️ Previsão do Tempo — C#, .NET MAUI
-- 📍 Busca de CEP — C#, .NET MAUI
-- ✈️ App de Viagens — C#, .NET MAUI
-- 🛒 Lista de Compras — C#, .NET MAUI
-- 🎬 Projeto Filmes — C#
-- 🧮 Equação de 2º Grau — C#
+Depois é só abrir o `index.html` no navegador.
 
-## 🎯 Objetivo
+## Sobre a construção
 
-Continuar desenvolvendo meus conhecimentos por meio de projetos práticos e utilizar este portfólio para acompanhar minha evolução durante a graduação em Ciência da Computação.
+Boa parte do código (estrutura, CSS e o JS de interação) foi montada com apoio de IA e depois ajustada por mim — conteúdo, projetos, textos e decisões de estilo são meus.
 
-## 🔗 Contato
+## Contato
 
-- GitHub: [hytn1](https://github.com/hytn1)
-- LinkedIn: [Haytan Sabeh](https://www.linkedin.com/in/haytan-sabeh-854752297/)
+- GitHub: [@hytn1](https://github.com/hytn1)
+- LinkedIn: [haytan-sabeh](https://www.linkedin.com/in/haytan-sabeh-854752297/)
 - E-mail: haytansabeh@gmail.com
-
-Desenvolvido por Haytan Otavio Godoi Sabeh.
