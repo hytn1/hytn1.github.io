@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haytan Sabeh - Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="header">
+  <nav class="navbar container">
+    <a href="#inicio" class="logo">HS<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio" class="active">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="inicio" class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">🚀 Em busca da primeira oportunidade em Tech</span>
+        <h1>Haytan Otavio<br>Godoi Sabeh</h1>
+        <p class="hero-role">Estudante de Ciência da Computação</p>
+        <p class="hero-sub">Com foco em <strong>Front-end</strong>, <strong>Python</strong>, <strong>Banco de Dados</strong> e <strong>Análise de Dados</strong>.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline">Contato</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/hytn1" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/haytan-sabeh-854752297/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <img src="img/foto.jpg" alt="Foto de Haytan Sabeh" id="profilePhoto" onerror="const f=document.getElementById('photoFallback'); f.style.display='flex'; this.replaceWith(f);">
+        </div>
+        <div class="photo-fallback" id="photoFallback">HS</div>
+      </div>
+      <div class="about-text">
+      <p class="kicker">Sobre mim</p>
+      <h2 class="section-title">Quem eu sou</h2>
+      <div class="about-content">
+        <p>
+          Sou formado em <strong>Desenvolvimento de Sistemas</strong> pela Etec Joaquim Ferreira do Amaral e atualmente
+          curso <strong>Ciência da Computação</strong> na UNISAGRADO. Sou movido por curiosidade em entender como as
+          coisas funcionam por trás das telas: comecei desenvolvendo aplicativos mobile multiplataforma com C# e .NET
+          MAUI durante minha formação técnica, e hoje venho expandindo meu aprendizado para
+          <strong>desenvolvimento front-end</strong>, <strong>Python</strong>, <strong>banco de dados</strong> e
+          <strong>análise de dados</strong>.
+        </p>
+        <p>
+          Gosto de aprender na prática: cada projeto no meu GitHub é um exercício de tentar, quebrar, entender o erro
+          e tentar de novo. Estou em busca de novos desafios que me ajudem a evoluir como desenvolvedor.
+        </p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="section section-alt">
+    <div class="container">
+      <p class="kicker">Habilidades</p>
+      <h2 class="section-title">Com o que eu trabalho</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Linguagens</h3>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">C#</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Dados</h3>
+          <div class="tags">
+            <span class="tag">Banco de Dados</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Análise de Dados</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Ferramentas</h3>
+          <div class="tags">
+            <span class="tag">Git &amp; GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Visual Studio</span>
+            <span class="tag">.NET MAUI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formacao" class="section">
+    <div class="container">
+      <p class="kicker">Formação</p>
+      <h2 class="section-title">Formação e Certificações</h2>
+      <div class="formacao-grid">
+        <div class="formacao-col">
+          <h3>Formação acadêmica</h3>
+          <div class="formacao-item">
+            <span class="formacao-period">2026 — 2030</span>
+            <h4>Ciência da Computação</h4>
+            <p>UNISAGRADO · Em andamento</p>
+          </div>
+          <div class="formacao-item">
+            <span class="formacao-period">Concluído</span>
+            <h4>Técnico em Desenvolvimento de Sistemas</h4>
+            <p>Etec Joaquim Ferreira do Amaral</p>
+          </div>
+        </div>
+        <div class="formacao-col">
+          <h3>Certificações</h3>
+          <div class="formacao-item">
+            <span class="formacao-period">Jan/2026</span>
+            <h4>Análise de Dados no Power BI</h4>
+            <p>Fundação Bradesco</p>
+          </div>
+          <div class="formacao-item">
+            <span class="formacao-period">Fev/2025</span>
+            <h4>IA para Todos</h4>
+            <p>StartSe University</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="section section-alt">
+    <div class="container">
+      <p class="kicker">Projetos</p>
+      <h2 class="section-title">O que eu já construí</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <span class="project-index">01</span>
+          <h3>Previsão do Tempo</h3>
+          <p class="project-stack">C#, .NET MAUI</p>
+          <p class="project-desc">Aplicativo mobile de previsão do tempo, desenvolvido em aula para praticar consumo de dados e interface multiplataforma.</p>
+          <a href="https://github.com/hytn1/PrevisaoTempo" target="_blank" rel="noopener" class="project-link">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-index">02</span>
+          <h3>Busca de CEP</h3>
+          <p class="project-stack">C#, .NET MAUI</p>
+          <p class="project-desc">Aplicativo que consulta e exibe informações de endereço a partir de um CEP informado pelo usuário.</p>
+          <a href="https://github.com/hytn1/AppBuscaCep" target="_blank" rel="noopener" class="project-link">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-index">03</span>
+          <h3>App de Viagens</h3>
+          <p class="project-stack">C#, .NET MAUI</p>
+          <p class="project-desc">Aplicativo mobile voltado para organização de viagens, desenvolvido como projeto de aula.</p>
+          <a href="https://github.com/hytn1/AppViagensMaui" target="_blank" rel="noopener" class="project-link">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-index">04</span>
+          <h3>Lista de Compras</h3>
+          <p class="project-stack">C#, .NET MAUI</p>
+          <p class="project-desc">Aplicativo para criar e gerenciar listas de compras, com foco em praticar manipulação de dados e interface.</p>
+          <a href="https://github.com/hytn1/AppMauiListaCompras" target="_blank" rel="noopener" class="project-link">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-index">05</span>
+          <h3>Projeto Filmes</h3>
+          <p class="project-stack">C#</p>
+          <p class="project-desc">Projeto desenvolvido no primeiro semestre de estudos, aplicando lógica de programação e estruturação de dados.</p>
+          <a href="https://github.com/hytn1/projeto_filmes" target="_blank" rel="noopener" class="project-link">Ver no GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-index">06</span>
+          <h3>Equação de 2º Grau</h3>
+          <p class="project-stack">C#</p>
+          <p class="project-desc">Programa que resolve equações de segundo grau (Bhaskara), praticando lógica e operações matemáticas.</p>
+          <a href="https://github.com/hytn1/Equacao-Segundo-" target="_blank" rel="noopener" class="project-link">Ver no GitHub →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <div class="container">
+      <p class="kicker">Contato</p>
+      <h2 class="section-title">Vamos conversar</h2>
+      <p class="contact-intro">Estou aberto a oportunidades de estágio e novos desafios na área de tecnologia.</p>
+      <div class="contact-grid">
+        <a href="https://github.com/hytn1" target="_blank" rel="noopener" class="contact-card">
+          <h3>GitHub</h3>
+          <span>@hytn1</span>
+        </a>
+        <a href="https://www.linkedin.com/in/haytan-sabeh-854752297/" target="_blank" rel="noopener" class="contact-card">
+          <h3>LinkedIn</h3>
+          <span>/in/haytan-sabeh</span>
+        </a>
+        <a href="mailto:haytansabeh@gmail.com" class="contact-card">
+          <h3>E-mail</h3>
+          <span>haytansabeh@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Haytan Otavio Godoi Sabeh</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
